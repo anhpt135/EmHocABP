@@ -4,7 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "InputActionValue.h"
 #include "APT_CharacterBase.generated.h"
+
+class UInputAction;
+class UInputMappingContext;
 
 UCLASS()
 class EMHOC_ABP_API AAPT_CharacterBase : public ACharacter
@@ -12,17 +16,32 @@ class EMHOC_ABP_API AAPT_CharacterBase : public ACharacter
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this character's properties
 	AAPT_CharacterBase();
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+	//~ Input
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "APT|Input")
+	TObjectPtr<UInputMappingContext> DefaultMappingContext;
 
-	// Called to bind functionality to input
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "APT|Input")
+	TObjectPtr<UInputAction> MoveAction;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "APT|Input")
+	TObjectPtr<UInputAction> LookAction;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "APT|Input")
+	TObjectPtr<UInputAction> JumpAction;
+	
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "APT|Input")
+	int32 MappingContextPriority = 0;
+
+	void Move(const FInputActionValue& Value);
+	void Look(const FInputActionValue& Value);
+	//~ End Input
+
+public:
+	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 };
