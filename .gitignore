@@ -1,3 +1,26 @@
+# Unreal Engine chuyên dụng
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.idle
+*.VC.db
+*.VC.opendb
+
+# Dành cho Webcache/Chrome (như trong ảnh của bạn)
+**/webcache_*
+**/optimization_guide_*
+
+# Các file tạm khác
+FileOpenOrder/
+DerivedDataCache/
 # Visual Studio 2015 user specific files
 .vs/
 
