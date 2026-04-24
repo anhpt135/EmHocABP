@@ -95,3 +95,6 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+/EmHoc_ABP/.idea
+/EmHoc_ABP/.idea
+/EmHoc_ABP/.idea

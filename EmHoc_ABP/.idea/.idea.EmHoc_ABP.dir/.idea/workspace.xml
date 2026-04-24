@@ -10,7 +10,10 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3af01599-ad45-4fc9-83c1-ea94d176fbee" name="Changes" comment="" />
+    <list default="true" id="3af01599-ad45-4fc9-83c1-ea94d176fbee" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmHoc_ABP.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmHoc_ABP.dir/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +31,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../Unreal Engine Program/UE_5.7/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/EmHoc_ABP/Private/FramesWork/APT_CharacterBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/EmHoc_ABP/Private/FramesWork/APT_GameModeBase.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/EmHoc_ABP/Private/FramesWork/APT_HUD_base.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -161,6 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776821192457</updated>
       <workItem from="1776821195082" duration="465000" />
+      <workItem from="1777022292712" duration="495000" />
     </task>
     <servers />
   </component>
