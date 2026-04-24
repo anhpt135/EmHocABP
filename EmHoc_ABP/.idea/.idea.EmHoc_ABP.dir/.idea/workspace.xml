@@ -10,10 +10,7 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3af01599-ad45-4fc9-83c1-ea94d176fbee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/EmHocABP/Framework/BP_CharacterCuaEm.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EmHocABP/Framework/BP_CharacterCuaEm.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/EmHocABP/Framework/BP_GameModeBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/EmHocABP/Framework/BP_GameModeBase.uasset" afterDir="false" />
-    </list>
+    <list default="true" id="3af01599-ad45-4fc9-83c1-ea94d176fbee" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1776821192457</updated>
       <workItem from="1776821195082" duration="465000" />
-      <workItem from="1777022292712" duration="1087000" />
+      <workItem from="1777022292712" duration="1194000" />
     </task>
     <servers />
   </component>
